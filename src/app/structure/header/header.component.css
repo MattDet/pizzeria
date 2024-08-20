@@ -1,7 +1,16 @@
-header {
-    background: #f8f9fa;
-    padding: 1rem;
+.navbar {
+    background-color: #e74c3c !important;
   }
-  nav a {
-    margin-right: 1rem;
+  
+  .nav-link {
+    color: #ffffff !important;
   }
+  
+  .navbar-brand {
+    color: #ffffff !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  

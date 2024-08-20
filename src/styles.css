@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #c8e6c9 !important; /* Vert pâle */
+  color: #333; /* Couleur du texte */
+}
+
+.navbar, .footer {
+  background-color: #e74c3c;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+  border-color: #c0392b;
+}
+
+/* CSS personnalisé pour les liens téléphoniques */
+a[href^="tel:"] {
+  color: #e74c3c; /* Couleur du numéro de téléphone */
+  text-decoration: none; /* Enlever le soulignement par défaut */
+}
+
+a[href^="tel:"]:hover {
+  text-decoration: underline; /* Souligner le lien au survol */
+}

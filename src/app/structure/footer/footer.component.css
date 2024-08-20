@@ -1,9 +1,13 @@
 footer {
-    background: #f8f9fa;
-    padding: 1rem;
-    text-align: center;
+    background-color: #8e735b !important;
+    color: #ffffff !important;
   }
+  
   footer a {
-    display: block;
-    margin-top: 0.5rem;
+    color: #ffffff !important;
   }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
