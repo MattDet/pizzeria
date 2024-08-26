@@ -19,12 +19,12 @@ export class HomeComponent {
 
   getOpeningHours(day: number): string {
     switch(day) {
-      case 0: // Dimanche
+      case 0: 
         return 'Fermé';
-      case 6: // Samedi
-        return '10h - 22h';
-      default: // Lundi à Vendredi
-        return '11h - 21h';
+      case 6: 
+        return '18h - 21h';
+      default: 
+        return '18h - 22h30';
     }
   }
 }

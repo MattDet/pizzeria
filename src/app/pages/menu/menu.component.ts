@@ -12,6 +12,5 @@ export class MenuComponent {
   menuItems = [
     { name: 'Margherita', description: 'Tomate, mozzarella, basilic', price: 8.5 },
     { name: 'Pepperoni', description: 'Tomate, mozzarella, pepperoni', price: 9.0 },
-    // Ajoutez d'autres produits ici
   ];
 }
